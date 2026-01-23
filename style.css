@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./img/background-img.png);
+    background-repeat: repeat;
+    background-position: center center;
+}
+
+.cabecalho {
+    padding: 3rem;
+    text-align: center;
+    color: #0F172A;
+    font-size: 1.5rem;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem;
+    padding: 1rem;
+    color: transparent;
+}
+
+.logotipo img {
+    width: 5rem;
+    height: 5rem;
+}
